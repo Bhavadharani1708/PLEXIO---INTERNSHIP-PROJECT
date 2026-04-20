@@ -8,4 +8,6 @@ Every second,it reads data,checks if it is valid,and stores it.
 Data is always saved to disk first then send to the cloud.
 If internet is down,data is stored and stored later when connection returns.
 It uses worker threads so one slow machine does not affect others.
-alerts are sent through the cloud not directly from the device.
+Alerts are sent through the cloud not directly from the device.
+It is used by the factory managers,maintenance engineers and plant operators.
+It makes it easy to monitor data in real time and gives alerts,helping prevent breakdowns and delays.
